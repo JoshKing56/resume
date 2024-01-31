@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "resume"
+version = "0.1.0"
+description = "A printable resume in htmx and flask"
+authors = ["Josh King <joshuaiking56@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+htmx = "^0.0.0"
+django = "^5.0.1"
+django-htmx = "^1.17.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
